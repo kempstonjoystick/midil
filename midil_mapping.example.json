@@ -1,0 +1,15 @@
+{
+	"mappings": [
+	{
+  	"client": 1,
+  	"name": "nanoKEY2",
+  	"mapped_to": [
+      {
+        "client": 2,
+        "name": "minilogue",
+        "input_port": 2
+      }
+  	]
+  }
+  ]
+}

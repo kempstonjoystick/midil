@@ -1,0 +1,52 @@
+{
+  "clients":[
+    {
+      "name":"Midi Through",
+      "index":14,
+      "input_ports":[
+        {
+          "name":"Midi Through Port-0"
+        }
+      ],
+      "output_ports":[
+        {
+          "name":"Midi Through Port-0"
+        }
+      ]
+    },
+    {
+      "name":"nanoKEY2",
+      "index":20,
+      "input_ports":[
+        {
+          "name":"nanoKEY2 MIDI 1"
+        }
+      ],
+      "output_ports":[
+        {
+          "name":"nanoKEY2 MIDI 1"
+        }
+      ]
+    },
+    {
+      "name":"minilogue",
+      "index":24,
+      "input_ports":[
+        {
+          "name":"minilogue MIDI 1"
+        },
+        {
+          "name":"minilogue MIDI 2"
+        }
+      ],
+      "output_ports":[
+        {
+          "name":"minilogue MIDI 1"
+        },
+        {
+          "name":"minilogue MIDI 2"
+        }
+      ]
+    }
+  ]
+}
