@@ -244,8 +244,9 @@ static void get_mapping_data(json_object *jmapping) {
         }
 
         fclose(fp);
-    }   
-    printf("No MIDI mapping file found\n");
+    }
+    else
+        printf("MIDI mapping file error: %s\n", strerror(errno));
 
 }
 
